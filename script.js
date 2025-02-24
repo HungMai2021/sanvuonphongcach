@@ -6,7 +6,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     let message = document.getElementById("message").value;
 
     let encodedMessage = encodeURIComponent(`Họ tên: ${name}\nSĐT: ${phone}\nNội dung: ${message}`);
-    let zaloUrl = `https://zalo.me/your-zalo-number?text=${encodedMessage}`;
+    let zaloUrl = `https://zalo.me/0828234902?text=${encodedMessage}`;
 
     window.open(zaloUrl, "_blank");
 });
