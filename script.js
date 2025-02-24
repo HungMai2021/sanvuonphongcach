@@ -10,15 +10,15 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
     window.open(zaloUrl, "_blank");
 });
-document1.getElementById("frmcontact").addEventListener("submit", function(event) {
-    event.preventDefault();
+document1.getElementById("frmcontact").addEventListener("submit", function(event1) {
+    event1.preventDefault();
 
-    let name = document1.getElementById("name").value;
-    let phone = document1.getElementById("email").value;
-    let message = document1.getElementById("message").value;
+    let name1 = document1.getElementById("name").value;
+    let phone1 = document1.getElementById("email").value;
+    let message1 = document1.getElementById("message").value;
 
-    let encodedMessage = encodeURIComponent(`Họ tên: ${name}\nEmail: ${email}\nNội dung: ${message}`);
-    let zaloUrl = `https://zalo.me/0828234902?text=${encodedMessage}`;
+    let encodedMessage1 = encodeURIComponent(`Họ tên: ${name1}\nEmail: ${email1}\nNội dung: ${message1}`);
+    let zaloUrl1 = `https://zalo.me/0828234902?text=${encodedMessage1}`;
 
-    window.open(zaloUrl, "_blank");
+    window.open(zaloUrl1, "_blank");
 });
