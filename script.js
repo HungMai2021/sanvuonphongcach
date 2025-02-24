@@ -14,7 +14,7 @@ document.getElementById("frmcontact").addEventListener("submit", function(event)
     event.preventDefault();
 
     let name = document.getElementById("name").value;
-    let phone = document.getElementById("email").value;
+    let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
 
     let encodedMessage = encodeURIComponent(`Họ tên: ${name}\nEmail: ${email}\nNội dung: ${message}`);
