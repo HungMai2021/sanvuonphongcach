@@ -68,6 +68,18 @@ header {
     top: 0;
     z-index: 1000;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Màu nền để không bị trong suốt */
+    z-index: 1000; /* Đảm bảo header hiển thị trên các phần khác */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng để dễ nhìn hơn */
+}
+body {
+    margin-top: 60px; /* Đẩy nội dung xuống để không bị header che mất */
+}
 
 .experts {
     display: flex;
